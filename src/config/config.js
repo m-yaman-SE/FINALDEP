@@ -4,7 +4,7 @@ import { v2 as cloudinary } from 'cloudinary';
 
 dotenv.config();
 
-mongoose.connect(process.env.MONGODB_URI, {
+mongoose.connect("mongodb+srv://shafi201167:NE5nZhwf1Tg0x9R5@cluster0.khaqoih.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
     dbName: process.env.DB_NAME,
     useNewUrlParser: true,
     useUnifiedTopology: true,
